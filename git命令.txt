@@ -33,6 +33,8 @@ git branch --no-merged 查看未合并的分支 不可删除
 git push origin --delete [branch-name] 删除远程分支
 git config --global credential.helper cache --timeout <seconds> 缓存验证信息
 git config --global credential.helper store --file <path> 明文保存验证信息
+git reset head~ 重置暂存区
+git reset --hard head~ 重置文件
 
 ssh-keygen -t rsa -C "xxxxxx@yy.com" 创建ssh公钥
 git config --global user.name “your_username”  设置用户名
