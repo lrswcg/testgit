@@ -35,6 +35,8 @@ git config --global credential.helper cache --timeout <seconds> 缓存验证信�
 git config --global credential.helper store --file <path> 明文保存验证信息
 git reset head~ 重置暂存区
 git reset --hard head~ 重置文件
+git clean -f -d 命令来移除工作目录中所有未追踪的文件以及空的子目录。
+git clean -d -n 清理文件目录将要执行的操作 -f的预演
 
 ssh-keygen -t rsa -C "xxxxxx@yy.com" 创建ssh公钥
 git config --global user.name “your_username”  设置用户名
